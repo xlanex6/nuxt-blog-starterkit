@@ -2,14 +2,21 @@
 
 # ROADMAP
 
-- [] Create Page blog INDEX
-- [] Create Page blog SHOW
+- [x] Create Page blog INDEX
+- [x] Create Page blog SHOW
+- [] Push to Github as Public
+- [] Minimum Design with TailwindCSS
+  - [] Typography
+  - [] Colors
+- [] Real Fake Data
+- [] CMS Forestry.io structure
+- [] Search component
+- [] Next / Previous component
 - [] SEO ready
 - [] Social share compliant
 - [] Layout BLOG
 - [] Sitemap
 - [] Feed XML blog
-- [] CMS Forestry.io structure
 
 ## OPTIONS
 

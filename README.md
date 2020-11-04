@@ -1,5 +1,7 @@
 # nuxt-blog-starterkit
 
+**is still in DEV**
+
 # ROADMAP
 
 - [x] Create Page blog INDEX

@@ -1,7 +1,14 @@
 ---
-title: POST B
-description: post B description
-slug: post-B
+title: culpa odio esse rerum omnis
+slug: culpa-odio
+seo-title: my seo title
+seo-description: my long description seo friendly
+thumbnail: https://via.placeholder.com/150/771796
+presentation: uia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto
+author: Alex Machin
+publishDate: 03/11/2020
+publish: true
+categories: ["cool"]
 ---
 
 ## post b headings

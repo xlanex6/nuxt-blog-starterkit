@@ -6,11 +6,11 @@
 
 - [x] Create Page blog INDEX
 - [x] Create Page blog SHOW
-- [] Push to Github as Public
+- [x] Push to Github as Public
+- [] Real Fake Data
 - [] Minimum Design with TailwindCSS
   - [] Typography
   - [] Colors
-- [] Real Fake Data
 - [] CMS Forestry.io structure
 - [] Search component
 - [] Next / Previous component

@@ -19,6 +19,8 @@ Doloribus dolor a? Provident, beatae excepturi. Corrupti nam ad magnam
 Architecto. Suscipit officia, autem molestias consequuntur deserunt sapiente quod vitae voluptatum rem a assumenda
 itaque eos eveniet accusantium odit fugit.
 
+![](/content/uploads/tono.jpg)
+
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nihil laborum dolor id, repellat in iure laudantium
 vel quis quidem cumque omnis quas, ut veritatis nisi ex tempora facere. Accusantium at quae reprehenderit hic id
 laboriosam, aliquam autem dolor explicabo laudantium voluptate blanditiis ipsa, tenetur sint quisquam facere est

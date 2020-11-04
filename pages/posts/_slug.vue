@@ -15,9 +15,10 @@ export default {
         
       }
   },
-  // shoul be refacto 
   async asyncData({$content, params}) {
-    const posts = await $content('posts', params.slug).fetch()
+    const {slug} = params
+    const posts = await $content('posts').where({slug}).fetch()
+      const post = posts[0]
     return {
       post
     }

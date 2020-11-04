@@ -8,7 +8,7 @@
 - [x] Create Page blog SHOW
 - [x] Push to Github as Public
 - [x] Real Fake Data
-- [] CMS Forestry.io structure
+- [x] CMS Forestry.io structure
 - [] Minimum Design with TailwindCSS
   - [] Typography
   - [] Colors

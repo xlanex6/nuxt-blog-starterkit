@@ -7,6 +7,3 @@ fields:
   config:
     required: true
   label: Nom
-pages:
-- content/category/cat1.md
-- content/category/cat2.md

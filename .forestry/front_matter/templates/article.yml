@@ -70,4 +70,4 @@ fields:
     max: 100
   label: Intro
 pages:
-- content/articles/mon-titre-de-blog.md
+- content/posts/live-post.md

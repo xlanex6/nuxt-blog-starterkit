@@ -1,0 +1,28 @@
+---
+label: Post
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: title
+- name: slug
+  type: text
+  config:
+    required: true
+  label: slug
+- name: publish
+  type: boolean
+  label: publish
+  default: false
+- name: publishdate
+  type: datetime
+  label: publishDate
+  description: ''
+  config:
+    required: false
+    date_format: DD/MM/YYYY
+    time_format: 
+    display_utc: false
+  default: now

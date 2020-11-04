@@ -1,0 +1,17 @@
+---
+label: Author
+hide_body: true
+fields:
+- name: full_name
+  type: text
+  config:
+    required: false
+  label: Nom
+  description: Nom complet
+- name: avatar
+  type: file
+  config:
+    maxSize: 64
+  label: Avatar
+pages:
+- content/author/flora.md

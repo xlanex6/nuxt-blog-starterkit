@@ -1,0 +1,41 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: admin
+webhook_url: 
+sections:
+- type: document
+  path: content/charte.md
+  label: Charte
+- type: directory
+  path: content/category
+  label: Category
+  create: documents
+  match: "**/*"
+  templates:
+  - categories
+- type: directory
+  path: content/author
+  label: Auteur
+  create: all
+  match: "**/*"
+  templates:
+  - author
+- type: directory
+  path: content/posts
+  label: Blog
+  create: all
+  match: "**/*"
+  templates:
+  - article
+upload_dir: uploads
+public_path: "/content/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  install_dependencies_command: npm install
+  preview_docker_image: forestryio/node:12
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: npm run develop

@@ -1,0 +1,73 @@
+---
+label: Article
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+    max: 40
+  label: Titre
+  description: Titre de l'article
+- name: seo-title
+  type: text
+  config:
+    required: true
+  description: 'c''est le titre qui sera dans l''url, pas d ''espace, pas de signe
+    etrange.<br>Exemple: <br>Mon Titre de mon article<br>devient<br>mon-titre-de-mon-article'
+  label: Titre SEO
+- name: description_seo
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description SEO
+  description: Pour le SEO
+- name: published_date
+  type: datetime
+  label: Date de publication
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: author
+  type: select
+  default: author/flora.md
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: auteur
+      file: 
+      path: 
+  label: Auteur
+- name: category
+  type: select
+  default: []
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: category
+      file: 
+      path: 
+  label: Categorie
+- name: intro
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+    max: 100
+  label: Intro
+pages:
+- content/articles/mon-titre-de-blog.md

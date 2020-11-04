@@ -31,13 +31,4 @@ itaque eos eveniet accusantium odit fugit.
 
 ## is cool or not ?
 
-* item 1
-  * sub item A
-  * sub item b
-  * sub item c
-* item 2
-* item 3
-* item 4
-* item 5
-
-[ceci est un lien](https://content.nuxtjs.org/displaying)
+## [ceci est un lien](https://content.nuxtjs.org/displaying)

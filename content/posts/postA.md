@@ -4,13 +4,17 @@ slug: sunt-aut
 seo-title: my seo title
 seo-description: my long description seo friendly
 thumbnail: https://via.placeholder.com/150/771796
-presentation: uia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto
+presentation: uia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit
+  molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto
 author: Alex Machin
 publishDate: 04/11/2020
 publish: true
-categories: ["cat"]
----
+categories:
+- cat
+category: content/category/cool.md
+intro: 'cool intro '
 
+---
 Doloribus dolor a? Provident, beatae excepturi. Corrupti nam ad magnam  
 Architecto. Suscipit officia, autem molestias consequuntur deserunt sapiente quod vitae voluptatum rem a assumenda
 itaque eos eveniet accusantium odit fugit.

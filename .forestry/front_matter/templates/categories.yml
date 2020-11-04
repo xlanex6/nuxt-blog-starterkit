@@ -7,3 +7,5 @@ fields:
   config:
     required: true
   label: Nom
+pages:
+- content/category/cool.md

@@ -31,7 +31,6 @@ sections:
 - type: document
   path: package.json
   label: Package.json
-  match: "**/*"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''

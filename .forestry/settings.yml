@@ -4,9 +4,13 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
-- type: document
-  path: content/charte.md
-  label: Charte
+- type: directory
+  path: content/posts
+  label: Blog
+  create: all
+  match: "**/*"
+  templates:
+  - article
 - type: directory
   path: content/category
   label: Category
@@ -21,13 +25,13 @@ sections:
   match: "**/*"
   templates:
   - author
-- type: directory
-  path: content/posts
-  label: Blog
-  create: all
+- type: document
+  path: content/charte.md
+  label: Charte
+- type: document
+  path: package.json
+  label: Package.json
   match: "**/*"
-  templates:
-  - article
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''

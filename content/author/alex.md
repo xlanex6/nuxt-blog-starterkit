@@ -1,5 +1,5 @@
 ---
 full_name: Alex
-avatar: "/content/uploads/tono.jpg"
+avatar: /images/tono.jpg"
 
 ---

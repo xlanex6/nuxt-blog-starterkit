@@ -15,7 +15,7 @@ architecto. Suscipit officia, autem molestias consequuntur deserunt sapiente quo
 
 itaque eos eveniet accusantium odit fugit.
 
-![](content/uploads/tono.jpg)
+![](static/images/tono.jpg)
 
 * item 3
 * faire la vaiselle

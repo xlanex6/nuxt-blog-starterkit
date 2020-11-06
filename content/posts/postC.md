@@ -1,16 +1,22 @@
 ---
-title: officia delectus consequatur vero aut veniam explicabo molestias
+title: post C headings
 slug: officia-delectus
 seo-title: my seo title
 seo-description: my long description seo friendly
 thumbnail: https://via.placeholder.com/150/771796
-presentation: uia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto
+presentation: uia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit
+  molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto
 author: Alex Machin
 publishDate: 03/11/2020
 publish: true
-categories: ["cool"]
----
+categories:
+- cool
+description_seo: rem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+  nihil laborum dolor id, repellat in iure laudantiu
+intro: rem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate n
+category: content/category/cool.md
 
+---
 ## post C headings
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nihil laborum dolor id, repellat in iure laudantium

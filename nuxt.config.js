@@ -1,5 +1,10 @@
 
 export default {
+  
+  /*  Server Side rendering
+  **  See https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-ssr/
+  */
+  ssr: false,  
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target

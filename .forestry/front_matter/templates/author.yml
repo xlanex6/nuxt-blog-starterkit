@@ -13,3 +13,5 @@ fields:
   config:
     maxSize: 64
   label: Avatar
+pages:
+- content/author/alex.md

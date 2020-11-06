@@ -69,5 +69,15 @@ fields:
       format: markdown
     max: 100
   label: Intro
+- name: thumbnail
+  type: file
+  config:
+    maxSize: 64
+  label: thumbnail
+- name: cover
+  type: file
+  config:
+    maxSize: 64
+  label: cover
 pages:
 - content/posts/live-post.md

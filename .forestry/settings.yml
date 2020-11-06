@@ -4,9 +4,13 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
-- type: document
-  path: content/charte.md
-  label: Charte
+- type: directory
+  path: content/posts
+  label: Blog
+  create: all
+  match: "**/*"
+  templates:
+  - article
 - type: directory
   path: content/category
   label: Category
@@ -21,15 +25,14 @@ sections:
   match: "**/*"
   templates:
   - author
-- type: directory
-  path: content/posts
-  label: Blog
-  create: all
-  match: "**/*"
-  templates:
-  - article
-upload_dir: content/uploads
-public_path: "/uploads"
+- type: document
+  path: content/charte.md
+  label: Charte
+- type: document
+  path: package.json
+  label: Package.json
+upload_dir: static/images
+public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
@@ -39,4 +42,4 @@ build:
   preview_docker_image: forestryio/node:12
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: npm run dev
+  instant_preview_command: npm run preview

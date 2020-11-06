@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
+    "preview": "nuxt -p 8080",
     "build": "nuxt build",
     "start": "nuxt start",
     "export": "nuxt export",
